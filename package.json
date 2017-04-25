@@ -1,0 +1,31 @@
+{
+  "name": "pown-iterators",
+  "version": "0.0.0",
+  "description": "Pownage guaranteed",
+  "main": "index.js",
+  "scripts": {
+    "lint": "pown-toolchain lint-src",
+    "build": "pown-toolchain build-src",
+    "test": "pown-toolchain test-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pownjs/pown-iterators.git"
+  },
+  "keywords": [
+    "exploit",
+    "framework"
+  ],
+  "author": "pdp <pdp@gnucitizen.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pownjs/pown-iterators/issues"
+  },
+  "homepage": "https://github.com/pownjs/pown-iterators#readme",
+  "dependencies": {
+    "pown-runtime": "^0.2.0"
+  },
+  "devDependencies": {
+    "pown-toolchain": "^0.3.2"
+  }
+}
